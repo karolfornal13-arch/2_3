@@ -1,11 +1,18 @@
 // import static org.junit.jupiter.api.Assertions.assertEquals;
 
 // import org.junit.jupiter.api.Test;
-
+import java.util.Scanner;
 public class Main {
   public static void main(String[] args) {
-    int ten = 10;
-    System.out.println(ten);
+    System.out.println("Podaj dwie liczby do sumowania");
+    Scanner scanner = new Scanner(System.in);
+    int a = scanner.nextInt();
+    System.out.println(a);
+    int b = scanner.nextInt();
+    System.out.println(b);
+    int suma = a + b;
+    System.out.println("Wynik:");
+    System.out.println(suma);
   }
 
   // @Test
