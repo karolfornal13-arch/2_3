@@ -7,8 +7,10 @@ public class Main {
     System.out.println("Podaj dwie liczby do sumowania");
     Scanner scanner = new Scanner(System.in);
     int a = scanner.nextInt();
+    scanner.nextLine();
     System.out.println(a);
     int b = scanner.nextInt();
+    scanner.nextLine();
     System.out.println(b);
     int suma = a + b;
     System.out.println("Wynik:");
