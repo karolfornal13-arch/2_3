@@ -4,7 +4,7 @@
 import java.util.Scanner;
 public class Main {
   public static void main(String[] args) {
-    System.out.println("Podaj dwie liczby do sumowania");
+    System.out.println("Podaj dwie liczby do sumowania:");
     Scanner scanner = new Scanner(System.in);
     int a = scanner.nextInt();
     scanner.nextLine();
